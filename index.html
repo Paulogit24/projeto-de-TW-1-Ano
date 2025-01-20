@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Politécnico vs Faculdade</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    
+        #topButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 10px 15px;
+            font-size: 18px;
+            cursor: pointer;
+            display: none; 
+        }
+
+        #topButton:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,13 +38,21 @@
     </header>
     <section class="home">
        <div class="home-content">
+        <h1>Breve Introdução</h1>
+        <br>
+        <p>
+            <strong>"O ensino superior divide-se, geralmente, entre Politécnicos e Faculdades (Universidades). Os Politécnicos focam-se numa formação mais prática, voltado para o mercado de trabalho. Já as Faculdades focam numa abordagem teórica e científica, com um foco no desenvolvimento acadêmico e em pesquisas avançadas. Ambas as opções oferecem caminhos distintos, que devem ser escolhidos com base nos objetivos e interesses individuais do estudante."</strong>
+        </p>
+        <img src="1.png" alt="some text" width="250" height="150" style="float: right;">
+        <br>
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
            <h1>Politécnico ou Faculdade? Qual devo escolher?</h1>
            <h1>Quais são as semelhanças?</h1>
            <br>
            <p>
             <strong>Diferenças:</strong> Embora com pequenas diferenças, as duas instituições possuem planos de estudo quase idênticos. A entrada é feito da mesma forma, através do Concurso Nacional de Acesso, com as mesmas propinas para as Licenciaturas. Quanto ao diploma, ele tem o mesmo valor, independentemente de ter sido obtido numa Universidade ou num Instituto Politécnico, sendo reconhecido da mesma forma como titular do grau de Licenciatura no curso concluído.
            </p>
-<br> <br>
+           <br> <br>
            <h1>Qual delas é a melhor? Em qual devo estudar?</h1>
            <br>
            <p>
@@ -32,5 +60,23 @@
            </p>
        </div>
     </section>
+    
+    <button id="topButton" onclick="scrollToTop()">↑</button>
+
+    <script>
+        window.onscroll = function() {toggleButton()};
+
+        function toggleButton() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                document.getElementById("topButton").style.display = "block";
+            } else {
+                document.getElementById("topButton").style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
