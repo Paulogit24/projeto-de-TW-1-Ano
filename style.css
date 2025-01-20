@@ -150,3 +150,44 @@ nav a:hover, nav a.active {
         font-size: 1.4rem;
     }
 }
+
+.diferencas {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #ddd;
+    min-height: 80vh;
+}
+
+.diferencas-content  {
+    align-items: center;
+    text-align: center;
+}
+
+.Semelhanças h4{
+    align-items: center;
+    text-align: left;
+
+}
+
+.Escolher p{
+    align-items: center;
+    text-align: left;
+}
+
+.Quais p{
+    align-items: center;
+    text-align: left;
+}
+
+.Politécnicos p{
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+
