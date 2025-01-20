@@ -170,17 +170,23 @@ nav a:hover, nav a.active {
 .Semelhanças h4{
     align-items: center;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .Escolher p{
     align-items: center;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .Quais p{
     align-items: center;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .Politécnicos p{
@@ -189,5 +195,22 @@ nav a:hover, nav a.active {
     display: flex;
     flex-direction: column;
     
+    
 }
 
+.SeD {
+    font-size: 3rem;
+
+}
+
+.E {
+    font-size: 3rem;
+}
+
+.QSD {
+    font-size: 3rem;
+}
+
+.P {
+    font-size: 3rem;
+}
