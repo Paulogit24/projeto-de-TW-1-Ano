@@ -172,6 +172,7 @@ nav a:hover, nav a.active {
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
 
 }
 
@@ -180,6 +181,7 @@ nav a:hover, nav a.active {
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
 }
 
 .Quais p{
@@ -187,6 +189,7 @@ nav a:hover, nav a.active {
     text-align: left;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
 }
 
 .Politécnicos p{
@@ -194,7 +197,8 @@ nav a:hover, nav a.active {
     text-align: left;
     display: flex;
     flex-direction: column;
-    
+    font-size: 1.5rem;
+
     
 }
 
